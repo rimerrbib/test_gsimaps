@@ -4,7 +4,7 @@
 ## 地理院地図
 
 - 地理院地図（国土地理院が運営しているもの）：http://maps.gsi.go.jp/
-- 地理院地図改変テストサイト（本レポジトリのデモ）：http://springscool.github.io/test_gsimaps/
+- 地理院地図改変テストサイト（本レポジトリのデモ）：http://springschool.github.io/test_gsimaps/
 
 
 ## See Also

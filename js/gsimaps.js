@@ -17,7 +17,7 @@ var GSI = {
 
 var CONFIG = {};
 
-// 地理院地図用 layersファイル指定。
+// 地理院地図用 layersファイル指定
 // (CONFIG.layers = null;に変更すると、同階層のlayers.txtを読込)
 
 CONFIG.layersTab = [

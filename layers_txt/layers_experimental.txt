@@ -24,10 +24,10 @@
           "url": "https://maps.gsi.go.jp/xyz/experimental_railcl/{z}/{x}/{y}.geojson",
           "styleurl" : "./data/style_canvas.js",
           "cocotile": true,
-          "minZoom": 15,
+          "minZoom": 13,
           "maxZoom": 18,
           "maxNativeZoom": 16,
-          "html": "ズーム15～18で表示します。<br><a target='_blank' href='https://github.com/gsi-cyberjapan/vector-tile-experiment'>ベクトルタイル提供実験</a>"
+          "html": "<s>ズーム15～18で表示します。</s><br><a target='_blank' href='https://github.com/gsi-cyberjapan/vector-tile-experiment'>ベクトルタイル提供実験</a>"
         },
         {
           "type": "Layer",

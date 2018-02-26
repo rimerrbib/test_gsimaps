@@ -7,17 +7,26 @@ geojsonOptions:
 {
    style: function (feature) {
 	if(feature.properties['type']=="普通鉄道（ＪＲ）"){
-	     if(feature.properties['snglDbl']=="駅部分"){
-	        return {color:"#ff0",weight:14,opacity:0.5,lineCap:"butt"};
-	      }else{
-	        return {color:"#0f0",weight:7,opacity:0.5,lineCap:"butt"};
-	      }
+	        if(feature.properties['snglDbl']=="駅部分"){
+	           return {color:"#ff0",weight:14,opacity:0.5,lineCap:"butt"};
+	         }else{
+	           return {color:"#0f0",weight:7,opacity:0.5,lineCap:"butt"};
+	         }
 	}else if(feature.properties['type']=="普通鉄道（ＪＲ以外）"){
-	     if(feature.properties['snglDbl']=="駅部分"){
-	        return {color:"#ff4242",weight:14,opacity:0.5,lineCap:"butt"};
-	      }else{
-	        return {color:"#ffaf3f",weight:7,opacity:0.5,lineCap:"butt"};
-	      }
+		if(feature.properties['railState']=="地下"){
+		     if(feature.properties['snglDbl']=="駅部分"){
+		        return {color:"#992626",weight:14,opacity:0.5,lineCap:"butt"};
+		      }else{
+		        return {color:"#966624",weight:7,opacity:0.5,lineCap:"butt"};
+		}else{
+		     if(feature.properties['snglDbl']=="駅部分"){
+		        return {color:"#ff4242",weight:14,opacity:0.5,lineCap:"butt"};
+		      }else{
+		        return {color:"#ffaf3f",weight:7,opacity:0.5,lineCap:"butt"};
+		      }
+		}
+	}else{
+		return {color:"#AAA",weight:7,opacity:0.5,lineCap:"butt"}
 	}
    },
    onEachFeature: function (feature, layer) {

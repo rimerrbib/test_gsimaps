@@ -351,7 +351,7 @@ input[type=search]{
 #header {
 	position:relative;
 	z-index:2;
-	background-color:#333;
+	background-color:#710808;
 	height:40px;
 	line-height:40px;
 	
@@ -546,7 +546,7 @@ form {
 	
 	height:30px;
 	line-height:30px;
-	border: 2px solid #555;
+	border: 2px solid #a90909;
 	padding: 0px 0px 0px 28px;
 	width:100%;
 	*width:98%;
@@ -4852,7 +4852,7 @@ form {
     border:1px solid #fff;
     background-color:#1D417A;
     */
-    border: 2px solid #666;
+    border: 2px solid #860d0d;
 	-moz-border-radius: 32px;
 	-webkit-border-radius: 32px;
 	border-radius: 32px;

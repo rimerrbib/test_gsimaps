@@ -22,7 +22,7 @@
           "id": "experimental_railcl",
           "title": "地図情報（鉄道中心線）",
           "url": "https://maps.gsi.go.jp/xyz/experimental_railcl/{z}/{x}/{y}.geojson",
-          "styleurl" : "https://maps.gsi.go.jp/xyz/experimental_railcl/style_canvas.js",
+          "styleurl" : "./data/style_canvas.js",
           "cocotile": true,
           "minZoom": 15,
           "maxZoom": 18,

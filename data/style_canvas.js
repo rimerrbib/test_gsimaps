@@ -18,6 +18,7 @@ geojsonOptions:
 		        return {color:"#992626",weight:14,opacity:0.5,lineCap:"butt"};
 		      }else{
 		        return {color:"#966624",weight:7,opacity:0.5,lineCap:"butt"};
+		      }
 		}else{
 		     if(feature.properties['snglDbl']=="駅部分"){
 		        return {color:"#ff4242",weight:14,opacity:0.5,lineCap:"butt"};

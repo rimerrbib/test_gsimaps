@@ -9,7 +9,7 @@
           "type": "Layer",
           "id": "sample1",
           "title": "サンプルデータ",
-          "url": "./data/sample.geojson",
+          "url": "./data/1.geojson",
           "cocotile": true,
           "minZoom": 2,
           "maxZoom": 18,

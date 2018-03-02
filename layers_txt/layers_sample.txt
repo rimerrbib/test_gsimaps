@@ -1,0 +1,22 @@
+{
+  "layers": [
+    {
+      "type": "LayerGroup",
+      "title": "サンプル",
+      "toggleall": false,
+      "entries": [
+        {
+          "type": "Layer",
+          "id": "sample1",
+          "title": "サンプルデータ",
+          "url": "./data/sample.geojson",
+          "cocotile": true,
+          "minZoom": 2,
+          "maxZoom": 18,
+          "legendUrl": "",
+          "html": "このファイルの凡例や解説を書き込めます。<br><a target='_blank' href=''>リンクの設定も可能です。</a>"
+        }
+      ]
+    }
+  ]
+}

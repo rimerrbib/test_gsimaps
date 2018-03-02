@@ -8,7 +8,7 @@
         {
           "type": "Layer",
           "id": "sample1",
-          "title": "サンプルデータ",
+          "title": "サンプル",
           "url": "./data/1.geojson",
           "cocotile": true,
           "minZoom": 2,
